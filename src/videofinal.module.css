@@ -1,0 +1,19 @@
+.videofinal {
+    border: 1rem solid rgb(97, 22, 22);
+    display: block;
+    margin: auto;
+    border-radius: 16px;
+    margin-top: 20rem;
+    width: 62.5rem;
+    height: 36rem;
+    margin-bottom: 2rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .videofinal {
+        width: 90%;
+        height: 14rem;
+        margin-bottom: 6rem;
+    }
+}

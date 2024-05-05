@@ -1,0 +1,45 @@
+.introductionBox {
+    width: 12,5rem;
+    height: 6,25rem;
+    padding-top: 12.5rem ;
+    padding-bottom: 30rem;
+}
+
+.introductionBox p {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.myLife {
+    color: rgb(157, 19, 170);
+    display: block;
+    background: var(--white);
+    width: 25rem;
+    margin: auto;
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 14px;
+    transition: 0.2s;
+
+}
+
+.myLife:hover {
+    background: rgb(157, 19, 170);
+    color: var(--white);
+}
+
+@media only screen and (max-width: 768px) {
+    .introductionBox {
+        padding-top: 6rem;
+    }
+
+    .introductionBox p {
+        font-size: calc(100% + 1rem);
+    }
+
+    .myLife {
+        font-size: calc(100% + 1rem);
+        width: 50%;
+    }
+}

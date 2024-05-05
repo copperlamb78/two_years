@@ -1,0 +1,71 @@
+.fotobox strong {
+    color: var(--black);
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    width: 30rem ;
+}
+
+.fotobox {
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+}
+
+
+.fotobox img{
+    width: 30rem;
+
+    object-fit: contain;
+    border-radius: 16px;
+    border: 0.25rem solid rgb(212, 19, 19);
+    background: rgb(212, 19, 19);
+}
+
+.videobox strong {
+    color: var(--black);
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    width: 30rem;
+}
+
+.videobox {
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+}
+
+.videobox video{
+    width: 30rem;
+    border-radius: 16px;
+    border: 0.25rem solid rgb(212, 19, 19);
+}
+
+@media only screen and (max-width: 768px) {
+    .fotobox img {
+        width: 50%;
+    }
+
+    .fotobox strong {
+        font-size: 87.5%;
+        width: 50%;
+    }
+
+    .fotobox {
+        padding: 1rem;
+    }
+
+    .videobox {
+        padding: 1rem;
+    }
+
+
+    .videobox video {
+        width: 50%;
+    }
+
+    .videobox strong {
+        font-size: 87.5%;
+        width: 50%;
+    }
+
+}
